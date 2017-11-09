@@ -6,7 +6,7 @@ Class-Level Variables, Exception Handling, Group Boxes, and The Load Event
 
 
 Page 179 Tutorial 3-11 Highlander Hotel
-<img src="hotel.jpg">
+<img src="hotel.PNG">
 Assignments
 Complete the following Assignments for the class.
 page 202 #1, #2, #3, #8, #11
