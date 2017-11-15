@@ -4,7 +4,7 @@
         Dim dblClassA As Double
         Dim dblClassB As Double
         Dim dblClassC As Double
-
+        Dim TotalCharges As Double
         dblClassA = CDbl(txtClassA.Text) * 15
         lblClassA.Text = dblClassA.ToString("c")
 
@@ -14,6 +14,9 @@
         dblClassC = CDbl(txtClassC.Text) * 9
         lblClassC.Text = dblClassC.ToString("c")
 
+        TotalCharges = CDec(lblClassA.Text) + CDec(lblClassB.Text) + CDec(lblClassC.Text)
+
+        lblTotal.Text = TotalCharges.ToString("c")
 
     End Sub
 
